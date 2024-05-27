@@ -182,3 +182,7 @@ p {
     font-weight: 700;
     font-family: "Poppins", sans-serif;
 }
+
+nav a:hover {
+    color: pink;
+}
