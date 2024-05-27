@@ -19,11 +19,19 @@ h1 {font-family: "Poppins", sans-serif;
     
 }
 
-nav li {color: rgb(47, 241, 241);
+nav li {
+    display: inline;
+    padding-right: 100px;
+    font-family: Blanka;
+    color: aqua;
+    font-weight: bold;
+    text-shadow: 0px 0px 5px #FFF3B2;
+    font-size: 25px;
+    float: right;
+    display: block;
+    text-align: center;
+    padding: 25px 25px;
     text-decoration: none;
-    font-family: "Poppins", sans-serif;
-    font-weight: 800;
-    list-style-type:none;
 }
 
 nav ul {list-style-type:none;
@@ -185,4 +193,34 @@ p {
 
 nav a:hover {
     color: pink;
+}
+
+marquee {
+    color: aqua;
+    font-weight: bold;
+    font-size: 25px;
+    font-family: monospace;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 40%;
+}
+
+p {
+    color: #FFF3B2;
+    text-shadow: 2px 4px 10px #FFF3B2;
+    font-size: 20px;
+    text-align: center;
+    font-family: monospace;
+    text-wrap: wrap;
+}
+
+img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 70%;
 }
